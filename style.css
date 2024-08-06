@@ -1,188 +1,189 @@
-html{
-    height: 100%;
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    background-image: linear-gradient(#fc5e55,#fa4083);
-
+html {
+  height: 100%;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  background-image: linear-gradient(#fc5e55, #fa4083);
 }
-body{
-    background-image: url(images/image-lion-background.png);
-    background-repeat:no-repeat ;
-    background-position: top center;
-    color: white;
-    font-size: 1.112rem;
+body {
+  background-image: url(images/image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  color: white;
+  font-size: 1.112rem;
 }
-.container{
-    width: 1024px;
-    min-height: 300px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.container header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid lightgrey;
-}
-
-main{
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-}
-.main2{
-    min-height: 300px;
-    padding-top: 50px;
-}
-main h1{
-    font-size: 3.25rem;
-    color: white;
-    margin-bottom: 1rem;
-    font-family: "Playfair Display", serif;
-}
-main p{
-    line-height: 1.75rem;
-    margin-bottom: 0.5rem;
+.container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
 }
 
-.cards{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
 }
-.cards1{
-    background-image: url(images/image-background-card2.jpg);
-    background-size: cover;
-    background-position: bottom;
-    min-height: 250px;
-    width: 30%;
+.main2 {
+  min-height: 300px;
+  padding-top: 50px;
 }
-
-.cards2{
-    background-image: url(images/image-background-card1.jpg);
-    background-position: bottom;
-    background-size: cover;
-    min-height: 250px;
-    width: 30%;
+main h1 {
+  font-size: 3.25rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-family: "Playfair Display", serif;
 }
-.cards3{
-    background-image: url(images/image-background-card3.jpg);
-    background-position: bottom;
-    background-size: cover;
-    min-height: 250px;
-    width: 30%;
-}
-.herobox1{
-    flex: 2;
-    padding-right: 100px;
-}
-.herobox2{
-    flex: 1;
-}
-h2{
-    font-family: "Playfair Display", serif;
-    font-size: 2rem;
-    margin-top: 20px;
-    text-align: center;
-}
-.cards p{
-    font-size: 0.85rem;
-    line-height: 1.2rem;
-    margin: 10px 30px 20px 30px;
-}
-.cards i{
-    font-size: 100px;
-    padding-top: 10px;
+main p {
+  line-height: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 
- a {
-    color: white;
-    text-decoration: none;
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
-.mybutton{
-    text-decoration: none;
-    background-color: white;
-    color: #fa4083;
-    font-family: "Playfair Display", serif;
-    padding: 11px 25px; 
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.228);
-}
-.mybutton:hover{
-    background-color: #28c54a;
-    transition-duration: 0.5s;
-}
-main .mybutton{
-    display: inline-block;
-    margin-top: 2px;
-}
-nav .navbutton{
-    margin-left: 30px;
-    display: inline-block;
-}
-nav .navbutton{
-    border: 1px solid white;
-    padding: 11px 25px;
-    font-family: "Playfair Display", serif;
-    position: relative;
+.cards1 {
+  background-image: url(images/image-background-card2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
 }
 
-.testimonials{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 100px;
+.cards2 {
+  background-image: url(images/image-background-card1.jpg);
+  background-position: bottom;
+  background-size: cover;
+  min-height: 250px;
+  width: 30%;
 }
-.tbox{
-    width: 47%;
-    padding: 50px;
-    border: 1px solid white;
-    box-sizing: border-box;
-    margin-top: 40px;
+.cards3 {
+  background-image: url(images/image-background-card3.jpg);
+  background-position: bottom;
+  background-size: cover;
+  min-height: 250px;
+  width: 30%;
 }
-.tbox :last-child{
-    font-size: .8rem;
-    padding-left: 60px;
+.herobox1 {
+  flex: 2;
+  padding-right: 100px;
 }
-.dropdown{
-    display: none;
-    position: absolute;
-    z-index: 1;
-    padding-top: 20px;
-    text-align: center;
+.herobox2 {
+  flex: 1;
 }
-.navbutton:hover .dropdown{
-    display: block;
+h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  margin-top: 20px;
+  text-align: center;
 }
-.dropdown .navbutton{
-    width: 120px;
-    background-color: white;
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin: 10px 30px 20px 30px;
 }
-.dropdown .navbutton a{
-    color: #fa4083;
+.cards i {
+  font-size: 100px;
+  padding-top: 10px;
 }
-.main2 form{
-    margin: 40px 0px;
+
+a {
+  color: white;
+  text-decoration: none;
 }
-.inputwrapper{
-    margin-bottom: 30px;
+.mybutton {
+  text-decoration: none;
+  background-color: white;
+  color: #fa4083;
+  font-family: "Playfair Display", serif;
+  padding: 11px 25px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.228);
 }
-input[type=text], input[type=email], textarea{
-    padding: 12px 20px;
-    width: 100%;
-    font-family: "Playfair Display", serif;
-    font-size: 0.85rem;
-    box-sizing: border-box;
+.mybutton:hover {
+  background-color: #28c54a;
+  transition-duration: 0.5s;
 }
-.newline{
-    display: block;
-    margin-bottom: 10px;
+main .mybutton {
+  display: inline-block;
+  margin-top: 2px;
 }
-.margin-right-a{
-    margin-right: 20px;
+nav .navbutton {
+  margin-left: 30px;
+  display: inline-block;
 }
-input[type=radio]{
-    margin-right: 10px;
+nav .navbutton {
+  border: 1px solid white;
+  padding: 11px 25px;
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+.tbox :last-child {
+  font-size: 0.8rem;
+  padding-left: 60px;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  text-align: center;
+}
+.navbutton:hover .dropdown {
+  display: block;
+}
+.dropdown .navbutton {
+  width: 120px;
+  background-color: white;
+}
+.dropdown .navbutton a {
+  color: #fa4083;
+}
+.main2 form {
+  margin: 40px 0px;
+}
+.inputwrapper {
+  margin-bottom: 30px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+.margin-right-a {
+  margin-right: 20px;
+}
+input[type="radio"] {
+  margin-right: 10px;
 }
